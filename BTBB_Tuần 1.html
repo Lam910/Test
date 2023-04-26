@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+  </style>
+  
+  
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Tuần 1</title>
+</head>
+<body>
+    <!--1 - Tạo 6 thẻ heading (từ 1 -> 6) với nội dung là: Hello World!-->
+    <h1>Hello World!</h1>
+    <h2>Hello World!</h2>
+    <h3>Hello World!</h3>
+    <h4>Hello World!</h4>
+    <h5>Hello World!</h5>
+    <h6>Hello World!</h6>
+    <!--2 - Tạo 2 đoạn văn với nội dung tùy ý (Sử dụng thẻ p)-->
+    <p>Lớp FE3</p>
+    <p>T7 VS CN hàng tuần</p>
+    <!--3 - Tạo thẻ img với 1 đường dẫn ảnh tùy ý và thêm attribute width="250" -->
+    <img src="https://images.unsplash.com/photo-1549458395-e14f2e6d39c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"alt="Lamborghini Urus"style="width: 250px";><br>
+ <!--4 - Tạo thẻ a với đường dẫn đến trang chủ facebook của mình-->
+ <a href="https://www.facebook.com/profile.php?id=100006582400696"target="_blank">FaceBook cá nhân</a>
+ <!--5 - Tạo 1 danh sách với nội dung sau (Sử dụng ul/li):-->
+ <ul>
+    <li>HTML,CSS từ zero đến hero</li>
+    <li>Thiết kế web responsive</li>
+    <li>Lập trình Javascript cơ bản</li>
+    <li>Lập trình Javascript nâng cao</li>
+    <li>Nhiều khóa học khác từ Front-end,tới Back-end,Mobile,Devops</li>
+  </ul>
+  <!--6 – Tạo bảng (table) dạng như sau: (Sử dụng thêm border-collapse: collapse)-->
+  <table style="width:70%">
+    <tr> 
+    <th style="width:5%">#</th>
+    <th style="width:55%">Tên khóa học</th>
+    <th>Giá</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>HTML,CSS từ zero đến hero</td>
+    <td>Miễn phí</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Thiết kế web responsive</td>
+    <td>Miễn phí</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Lập trình Javascript cơ bản</td>
+    <td>Miễn phí</td>
+  </tr>
+</table>
+<!--7 – Sử dụng thẻ div và input thực hiện các yêu cầu sau-->
+<!-- a/ Tạo thẻ div có chứa 1 thẻ input với type="text" và 1 thẻ input với type="password". Thêm chữ Tên đăng nhập vào trước input text và thêm chữ Mật khẩu vào trước input password.
+-->
+<div
+<form action="/action_page.php">
+  <label for="username">Tên đăng nhập:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+</form>
+</div>
+<!--b/ Tạo thêm thẻ div mới chứa 3 thẻ input với name="gender" và type="radio". Sau thẻ thứ nhất thêm vào chữ Nam, sau thẻ thứ 2 thêm vào chữ Nữ và sau thẻ thứ 3 thêm vào chữ Khác.
+-->
+<div>
+  <form action="/action_page.php">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Nam</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Nữ</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">Khác</label>
+    </form> 
+</div>
+<br>
+
+<!--c/ Tạo thêm thẻ div mới chứa 4 thẻ input với name="answer" và type="checkbox". Thêm chữ Đáp án 1, Đáp án 2, Đáp án 3, Đáp án 4 tương ứng vào sau 4 checkbox vừa tạo.
+-->
+<div
+<form action="/action_page.php">
+  <input type="checkbox" id="Đáp án 1" name="da1" value="da1">
+  <label for="da1"> Đáp án 1</label><br>
+  <input type="checkbox" id="da2" name="vehicle2" value="Car">
+  <label for="da2">Đáp án 2</label><br>
+  <input type="checkbox" id="da3" name="vehicle3" value="Boat">
+  <label for="da3"> Đáp án 3</label><br>
+  <input type="checkbox" id="da4" name="vehicle3" value="Boat">
+  <label for="da4"> Đáp án 4</label><br><br> 
+  <input type="submit" value="Submit">
+</form> 
+</div>
+<!--d/ Thêm tiếp thẻ div mới chứa 1 thẻ input với type="submit" và value="Đăng ký".
+-->
+<input type="submit" value="Đăng Ký">
+
+<!--8 – Làm việc với Attribute
+-->
+<!--a/Tạo thẻ h1 với nội dung Học về attribute trong HTML. Thêm attribute title với giá trị HTML, CSS từ zero đến Hero
+-->
+<h2 title="HTML, CSS từ zero đến Hero">Học về attribute trong HTML</h2>
+<!--b/Tạo thẻ a với nội dung Học HTML Mọi Nơi. Thêm attribute href với giá trị link 1 trang web bất kỳ
+-->
+<a href="https://youtu.be/AJ-saynBh10"target="_blank">Học HTML Mọi Nơi</a><br><br>
+<!--c/Tạo thẻ img với attribute src có giá trị https://webbynat.files.wordpress.com/2016/03/html2.jpg, thêm tiếp attribute width có giá trị 250 và attribute title có giá trị Lập trình HTML cơ bản
+-->
+<img src="https://webbynat.files.wordpress.com/2016/03/html2.jpg" alt="Hình Ảnh" style="width:250px;" title=" Lập trình HTML cơ bản">
+</body>
+</html>
